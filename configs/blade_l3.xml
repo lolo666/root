@@ -1,5 +1,14 @@
-<project>
+<config>
     <name>blade_l3</name>
+    <device>blade_l3</device>
+    <device>cyanogenmod</device>
+    <frameworks>
+        example.apk
+        example.jar
+    </frameworks>
+    <alt_rom_name>
+	example_v~ro.build.version.release~_~ro.product.device~_~ro.build.version.incremental~
+    </alt_rom_name>
     <translate>
         <item>https://github.com/lolo666/cyanogenmod_blade_l3_translate/archive/master.zip</item>
     </translate>
@@ -9,7 +18,4 @@
     <patches>
         <item>https://github.com/lolo666/cyanogenmod_blade_l3_patches/archive/master.zip</item>
     </patches>
-    <alt_rom_name>
-	example_v~ro.build.version.release~_blade_l3_~ro.build.version.incremental~
-    </alt_rom_name>
-</project>
+</config>
